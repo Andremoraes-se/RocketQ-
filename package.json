@@ -1,0 +1,20 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios ",
+  "main": "src/server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "nodemon .",
+    "init-db":"node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Andre Moraes",
+  "license": "ISC"
+}
